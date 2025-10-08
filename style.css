@@ -13,7 +13,7 @@ body {
 footer {
   color: rgb(163, 134, 243);
   text-align: center;
-  padding: 12px;
+  padding: 7px;
   position: fixed;
   width: 100%;
   bottom: 0;
@@ -22,4 +22,24 @@ footer {
 a {
   color: white;
   text-decoration: none;
+}
+
+.city {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(12, 11, 11);
+}
+.date {
+  font-size: 18px;
+  text-align: center;
+  margin-top: -10px;
+  color: rgb(12, 11, 11);
+}
+.time {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(76, 14, 245);
 }
