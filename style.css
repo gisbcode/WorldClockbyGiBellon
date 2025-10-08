@@ -6,7 +6,8 @@ h1 {
 }
 
 h2 {
-  margin: 10px 0px 20px 0px;
+  margin: 0 0 20px;
+  line-height: 1.8;
 }
 body {
   background-color: #8c9cf4;
@@ -56,7 +57,7 @@ a {
 .city {
   display: flex;
   justify-content: space-between;
-  margin-top: 030px;
+  margin-top: 30px;
 }
 .time {
   font-size: 33px;
