@@ -13,9 +13,12 @@ body {
 footer {
   color: rgb(163, 134, 243);
   text-align: center;
+    font-size: 14px;
   padding: 7px;
   position: fixed;
   width: 100%;
+  line-height: 1.5;
+  margin-left: -10px;
   bottom: 0;
   background-color: black;
 }
@@ -24,37 +27,40 @@ a {
   text-decoration: none;
 }
 
-.city {
-  font-size: 15px;
-  text-align: center;
-  margin-top: 20px;
-  color: rgb(12, 11, 11);
+.container {
+    max-width: 600px;
+  background-color: white;
+  margin: 0px auto;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+  padding: 28px;
+
 }
-.date {
-  font-size: 18px;
-  text-align: center;
-  margin-top: -10px;
-  color: rgb(12, 11, 11);
-}
-.time {
-  font-size: 16px;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 10px;
-  color: rgb(76, 14, 245);
-}
+
 
 #city-select {
   background-color: rgb(252, 252, 252);
   color: black;
   border: 2px solid rgb(76, 14, 245);
   padding: 8px 20px;
-  text-align: center;
   text-decoration: none;
-
+  width: 50%;
   display: block;
   font-size: 16px;
   margin: 40px auto;
   cursor: pointer;
   border-radius: 5px;
+}
+
+.city {
+display: flex;
+ justify-content: space-between;
+ 
+
+}
+.time {
+  font-size: 33px;
+  font-weight: bold;
+  color: rgb(76, 14, 245);
+  margin-top: 10px;
 }
