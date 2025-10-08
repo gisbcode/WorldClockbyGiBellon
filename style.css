@@ -43,3 +43,19 @@ a {
   margin-top: 10px;
   color: rgb(76, 14, 245);
 }
+
+#city-select {
+
+  background-color: rgb(252, 252, 252);
+  color: black;
+  border: 2px solid rgb(76, 14, 245);
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  font-size: 16px;
+  margin: 40px auto;
+  cursor: pointer;
+  border-radius: 5px;
+}
