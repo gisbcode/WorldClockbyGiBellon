@@ -64,3 +64,9 @@ display: flex;
   color: rgb(76, 14, 245);
   margin-top: 10px;
 }
+
+.time small {
+  font-size: 16px;
+  color: black;
+  vertical-align: middle;
+}
