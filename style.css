@@ -34,10 +34,11 @@ a {
 .container {
   max-width: 600px;
   background-color: white;
-  margin: 0px auto;
+  margin: 10px auto ;
+margin-top: 50px;
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
-  padding: 28px;
+  padding: 8px 30px 30px 30px;
 }
 
 #city-select {
