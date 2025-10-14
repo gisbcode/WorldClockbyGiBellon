@@ -57,6 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
           ${cityTime.format("h:mm:ss")} <small>${cityTime.format("A")}</small>
         </div>
       </div>
+      <a href="index.html">Back to all cities</a> 
     `;
   }
 
@@ -65,5 +66,3 @@ document.addEventListener("DOMContentLoaded", function () {
   let citiesSelectElement = document.querySelector("#city-select");
   citiesSelectElement.addEventListener("change", updateCity);
 });
-
-// Make sure to include Moment.js and Moment Timezone in your HTML file
